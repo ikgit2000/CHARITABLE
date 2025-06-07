@@ -1,0 +1,122 @@
+
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 20%; /* Adjust the width as needed */
+    margin-bottom: 10px;
+}
+
+.organization-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.details {
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.signature {
+    margin-top: 40px;
+
+    text-align: center;
+}
+
+.party {
+    width: 45%;
+    display: inline-block;
+}
+.party1{
+    width: 45%;
+    display: inline-block;
+    margin-left: 40px;
+}
+.report {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    align-content: center;
+    margin-left: 200px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table th:nth-child(1),
+table td:nth-child(1) {
+    width: 50%;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    width: 25%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: 25%;
+}
+#monthDropdown {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 50px;
+    margin-top: 5px;
+
+
+}
+
+#monthDropdown:focus {
+    outline: none;
+}
+.genpdf{
+    width:100px;
+    height:50px;
+    border-radius: 4px;
+    margin-top: 2px;
+
+}
+#download{
+    margin-top: 2px;
+    margin-left: 10px;
+}
